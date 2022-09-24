@@ -1,0 +1,9 @@
+package br.inatel.labs.labrest.server.controller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+@RequestMapping("/hello")
+public class HelloController {
+
+}

@@ -1,0 +1,13 @@
+package br.inatel.labs.labrest.server.service;
+
+import java.util.HashMap;
+import java.util.Map;
+
+import org.springframework.stereotype.Service;
+
+import br.inatel.labs.labrest.server.model.Curso;
+
+@Service
+public class CursoService {
+		
+	private Map<Long, Curso> map = new HashMap<>();
